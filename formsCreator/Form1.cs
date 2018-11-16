@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,10 +23,10 @@ namespace formsCreator
             {
                 token += dataBytes[i] + keyBytes[i];
             }
-            MessageBox.Show(token.ToString());
+            //MessageBox.Show(token.ToString());
         }
 
-        public void decryption(int data)
+        /*public void decryption(int data)
         {
             string key = "artmiptv";
             //byte[] dataBytes = Encoding.UTF8.GetBytes(data);
@@ -37,7 +37,7 @@ namespace formsCreator
                 token[i] = Encoding.Default.GetString((data - keyBytes[keyBytes.Length - i]).Where(x => x != 0).ToArray());
             }
             MessageBox.Show(token.ToString());
-        }
+        }*/
         public void createBlock(int q)
         {
             Form f2 = new Form();
@@ -60,7 +60,8 @@ namespace formsCreator
                 lbl[i] = new Label();
                 lbl[i].Name = "lb1l" + (i+1);
                 lbl[i].Location = new Point(0, 10);
-                lbl[i].Text = "" + File.ReadAllLines(textBox2.Text).Skip(i).First();                p3[i].Controls.Add(lbl[i]);
+                lbl[i].Text = "" + File.ReadAllLines(textBox2.Text).Skip(i).First();                
+                p3[i].Controls.Add(lbl[i]);
 
                 RadioButton[] rbtn = new RadioButton[4];
                 for (int k = 0; k < 4; k++)
