@@ -1,0 +1,11 @@
+c:\users\user\source\repos\formsCreator\formsCreator\bin\Debug\formsCreator.exe.config
+c:\users\user\source\repos\formsCreator\formsCreator\bin\Debug\formsCreator.exe
+c:\users\user\source\repos\formsCreator\formsCreator\bin\Debug\formsCreator.pdb
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.csprojAssemblyReference.cache
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.Properties.Resources.resources
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.csproj.GenerateResource.cache
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.exe
+c:\users\user\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.pdb
+C:\Users\User\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.Form1.resources
+C:\Users\User\source\repos\formsCreator\formsCreator\obj\Debug\formsCreator.Form2.resources
